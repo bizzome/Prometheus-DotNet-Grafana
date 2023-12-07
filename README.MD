@@ -1,9 +1,7 @@
 
-# Observability in .NET with Prometheus and Grafana
+# Observability with Prometheus and Grafana
 
-This repository was made to a presentation in .NET CONF 2023 that happened in Campinas city in Brazil! 
-
-I used this repository to demonstrate how to instrument and observe a simple .NET API.
+This repository to demonstrates how to instrument and observe a simple .NET API.
 
 ## ☕ The stack
 - Docker
@@ -19,18 +17,18 @@ I used this repository to demonstrate how to instrument and observe a simple .NE
 
 Before you start, check if you have all the prerequisites:
 
--   You have `Docker` installed.
--   You have  `Docker Compose` installed.
+-   `Docker` installed.
+-   `Docker Compose` installed.
 
 ## ☕ Run the project
 
 Go to the root folder of this project and simply run the command below:
 
-`docker-compose up -d`
+`docker compose up -d`
 
 ## 🛎️  Alerts!
 
-To receive alerts by e-mail, you should change the information in [this file here](https://github.com/Barros42/Prometheus---DotNet---Grafana/blob/master/alertmanager/alertmanager.yml)
+To receive alerts by e-mail, you should change the information in [this file here](https://github.com/bizzome/Prometheus---DotNet---Grafana/blob/master/alertmanager/alertmanager.yml)
 
 ## 🚀 Run a stress test with K6
 
@@ -40,4 +38,6 @@ Go to the root folder of this project and simply run the command below:
 
 
 ## 😄 Improve this code!
-Want to improve this repository? Click [HERE](mailto:mdbf42@gmail.com) and send me an e-mail.
+Want to improve this repository? Feel free to open an issue with ideas or make a pull request.
+
+Forked from [Barros42](https://github.com/Barros42/Prometheus-DotNet-Grafana)
